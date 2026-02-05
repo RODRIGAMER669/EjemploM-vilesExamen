@@ -1,4 +1,3 @@
 package es.etg.pmdm.examenmovilesejemplo.ui.viewModel
 
-class ItemViewModel {
-}
+data class ItemViewModel(val nombre: String, val url : String)

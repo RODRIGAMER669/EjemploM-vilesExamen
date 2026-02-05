@@ -1,4 +1,6 @@
 package es.etg.pmdm.examenmovilesejemplo.service
 
-class PokemonResult {
-}
+data class PokemonResult(
+    val name: String,
+    val url: String
+)
